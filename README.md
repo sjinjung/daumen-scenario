@@ -19,6 +19,9 @@ The OSM-derived network was refined using official road information. Traffic dem
 
 ## How to Run
 
+Requirement to run this Scenario is [Sumo](https://sumo.dlr.de/docs/Downloads.php),
+
+
 Extract the downloaded archive and run the included `.bat` file.
 
 In case only Baseline-Scenario is required, unzip the folder and run `.sumocfg` file.
