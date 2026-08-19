@@ -15,11 +15,13 @@ P+R guidance is active from 06:00 to 10:00. Except for the P+R location, trigger
 
 ## Data and Model
 
-The OSM-derived network was refined using official road information. Traffic demand and the baseline model were calibrated using 2023 observations from 169 fixed traffic sensors in Darmstadt and BASt traffic counts. The model was prepared with Eclipse SUMO 1.27.0.
+The OSM-derived network was refined using official road information. Traffic demand and the baseline model were calibrated using 2023 observations from main 23 fixed traffic sensors in Darmstadt, 6 External Highway (Autobahn) and 4 Federal Highway BASt traffic counts. The model was prepared with Eclipse SUMO 1.27.0.
 
 ## How to Run
 
 Extract the downloaded archive and run the included `.bat` file.
+
+In case only Baseline-Scenario is required, unzip the folder and run `.sumocfg` file.
 
 ## Visualisation
 
