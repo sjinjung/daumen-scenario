@@ -42,7 +42,7 @@ The `visualisation` directory contains the following materials:
 * Urban traffic counts: [Darmstadt Raw Traffic Data 2023](https://opendata.darmstadt.de/dataset/verkehrsdaten-im-rohformat-2023), providing one-minute observations from fixed induction sensors under `dl-by-de/2.0`.
 * Regional traffic counts: [BASt automatic counting stations 2023](https://www.bast.de/DE/Themen/Digitales/HF_1/Massnahmen/verkehrszaehlung/Daten/2023_1/Jawe2023.html) and [Manual Road Traffic Census 2021](https://www.bast.de/DE/Publikationen/Statistik/Verkehrsdaten/Manuelle-Zaehlung.html).
 * Travel demand and spatial data: [Darmstadt employment data](https://opendata.darmstadt.de/dataset/besch%C3%A4ftigte), [statistical districts](https://opendata.darmstadt.de/dataset/statistische-bezirke-darmstadt), regional commuter statistics, and [Geobasisdaten Hessen](https://geodaten.hessen.de/) ATKIS data.
-* Public transport and P+R locations: [RMV Open Data](https://www.rmv.de/c/de/fahrplan/fahrplaene/service-fuer-entwickler) and [Parken in Hessen](https://parken.hessen.de/).
+* Public transport and P+R locations: [RMV Open Data](https://www.rmv.de/c/de/fahrplan/fahrplaene/service-fuer-entwickler)
 
 ## Modeling Note
 
@@ -50,4 +50,4 @@ The 20% rerouting rate is a controlled scenario parameter for comparing location
 
 ## Citation
 
-Jung, Sejin (2026). *Daumen-Scenario: Evaluation of Park-and-Ride Locations for Commuter Traffic in Darmstadt – Integrating GIS Spatial Analysis and Mesoscopic Traffic Simulation in SUMO*. Bachelor’s thesis, Technische Universität Darmstadt.
+Jung, Sejin (2026). *Evaluation of Park-and-Ride Locations for Commuter Traffic in Darmstadt – The DaUMen Scenario: Integrating GIS Spatial Analysis and Mesoscopic Traffic Simulation*. Bachelor’s thesis, Technische Universität Darmstadt.
