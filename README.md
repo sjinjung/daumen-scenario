@@ -4,18 +4,25 @@ Daumen Scenario is a SUMO model developed for a bachelor’s thesis to compare P
 
 ## Scenarios
 
-| Scenario | Intervention                                      |
-| -------- | ------------------------------------------------- |
-| Baseline | No P+R intervention                               |
-| B26      | 20% of eligible commuter vehicles rerouted to P+R |
-| A672     | 20% of eligible commuter vehicles rerouted to P+R |
-| B42      | 20% of eligible commuter vehicles rerouted to P+R |
+| Scenario | Intervention                                      | Deverted Vehicles | 
+| -------- | ------------------------------------------------- | ----------------- |
+| Baseline | No P+R intervention                               |                   |
+| B26      | 20% of eligible commuter vehicles rerouted to P+R | 1,524             |
+| A672     | 20% of eligible commuter vehicles rerouted to P+R | 1,432             |
+| B42      | 20% of eligible commuter vehicles rerouted to P+R | 1,150             |
+<img width="1087" height="681" alt="image" src="https://github.com/user-attachments/assets/6b1a9cd5-81ac-45a3-94f9-60a724be7890" />
 
 P+R guidance is active from 06:00 to 10:00. Except for the P+R location, trigger edge, and access route, the scenario settings remain unchanged.
+
+Despite the variation at number of deverted vehicles each scenarios, there was negligible difference in the actual number of vehicles passing through the edges due to dynamic rerouting function of SUMO.
 
 ## Data and Model
 
 The OSM-derived network was refined using official road information. Traffic demand and the baseline model were calibrated using 2023 observations from main 23 fixed traffic sensors in Darmstadt, 6 External Highway (Autobahn) and 4 Federal Highway BASt traffic counts. The model was prepared with Eclipse SUMO 1.27.0.
+<img width="2191" height="987" alt="image" src="https://github.com/user-attachments/assets/65512e67-b80d-47bf-95f9-75b0c60bf6aa" />
+
+Representative Results
+<img width="1541" height="662" alt="image" src="https://github.com/user-attachments/assets/e61bdf6e-1667-4ead-abeb-c0def3f52290" />
 
 ## How to Run
 
@@ -48,6 +55,15 @@ The `visualisation` directory contains the following materials:
 * Regional traffic counts: [BASt automatic counting stations 2023](https://www.bast.de/DE/Themen/Digitales/HF_1/Massnahmen/verkehrszaehlung/Daten/2023_1/Jawe2023.html) and [Manual Road Traffic Census 2021](https://www.bast.de/DE/Publikationen/Statistik/Verkehrsdaten/Manuelle-Zaehlung.html).
 * Travel demand and spatial data: [Darmstadt employment data](https://opendata.darmstadt.de/dataset/besch%C3%A4ftigte), [statistical districts](https://opendata.darmstadt.de/dataset/statistische-bezirke-darmstadt), regional commuter statistics, and [Geobasisdaten Hessen](https://geodaten.hessen.de/) ATKIS data.
 * Public transport and P+R locations: [RMV Open Data](https://www.rmv.de/c/de/fahrplan/fahrplaene/service-fuer-entwickler)
+
+## Result
+
+Traffic operation metrics:
+<img width="2036" height="745" alt="image" src="https://github.com/user-attachments/assets/604ebaef-8c87-4904-a09a-4e8fdda18977" />
+
+Enviromental emissions:
+<img width="2052" height="758" alt="image" src="https://github.com/user-attachments/assets/dab7b4aa-1f69-41a6-95d9-3436a7d293a9" />
+
 
 ## Modeling Note
 
