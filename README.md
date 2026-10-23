@@ -25,6 +25,11 @@ Extract the downloaded archive and run the included `.bat` file.
 
 In case only Baseline-Scenario is required, unzip the folder and run `.sumocfg` file.
 
+## Calibration
+Locations of Loop detectors that used for calibration (Blue)
+
+<img width="4961" height="7016" alt="sensors" src="https://github.com/user-attachments/assets/defbfc4f-7ea1-47b5-a2bd-e980cdf0763b" />
+
 ## Visualisation
 
 The `visualisation` directory contains the following materials:
